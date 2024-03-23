@@ -1,6 +1,7 @@
 /* LESSON 3 - Programming Tasks */
 
 /* FUNCTIONS */
+
 /* Function Definition - Add Numbers */
 function add(number1, number2)
 {
@@ -99,7 +100,7 @@ document.querySelector('#array').innerHTML = numbersArray;
 
 let oddNumbers = numbersArray.filter((num) => {
     return (num % 2 !== 0);
-})
+});
 
 /* Output Evens Only Array */
 
@@ -109,6 +110,7 @@ let evenNumbers = numbersArray.filter((num) =>
 {
     return (num % 2 === 0);
 });
+
 document.querySelector('#evens').innerHTML = evenNumbers;
 
 
